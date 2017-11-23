@@ -1,0 +1,25 @@
+{
+    "name": "samfch/paginator",
+    "type": "library",
+    "description": "PHP Pagination Class originaly from www.catchmyfame.com (http://www.catchmyfame.com/2014/02/06/php-pagination-class-version-3/)",
+    "keywords": [
+        "pagination",
+        "paginator"
+    ],
+    "license": "CC BY-SA 3.0",
+    "authors": [
+        {
+            "name": "samfch",
+            "email": "hanxgen3@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Paginator\\": "src/"
+        }
+    }
+}
